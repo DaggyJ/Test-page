@@ -4,9 +4,17 @@ html {
 header {
     text-align: center;
     font-size: 40px;
-    font-family: verdana;
+    font-family: verdana; 
+    font-style: italic;
     font-weight:bolder;
     color: whitesmoke;
+    background-image: url(./coffee7.jpg);
+    border-radius: 10px;
+    border: 2px solid rgb(38, 0, 255);
+    -webkit-background-origin: border-box;
+
+    
+
    
 }
 #nav-link{
@@ -14,16 +22,25 @@ header {
     color: white;
 }
 #Img{
-    padding-left: 170px;
+    /*padding-left: 120px;*/
+    border-radius: 20px;
+    border: 2px solid red;
 }
 
 body {
     font: 1em sans-serif;
     background: rgb(202, 126, 27);
-    padding-left: 180px;
-    padding-right: 50px;
+    /*padding-left: 180px;
+    padding-right: 50px;*/
+    padding:0% 180px;
     margin: auto;
 }
-/*{
-    background-color: blueviolet;
-}*/
+.container{
+    border: 50px solid red;
+    border-radius: 10px;
+}
+.Tins{
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
