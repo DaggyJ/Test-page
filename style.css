@@ -1,0 +1,29 @@
+html {
+    display: block;
+}
+header {
+    text-align: center;
+    font-size: 40px;
+    font-family: verdana;
+    font-weight:bolder;
+    color: whitesmoke;
+   
+}
+#nav-link{
+    text-decoration: none;
+    color: white;
+}
+#Img{
+    padding-left: 170px;
+}
+
+body {
+    font: 1em sans-serif;
+    background: rgb(202, 126, 27);
+    padding-left: 180px;
+    padding-right: 50px;
+    margin: auto;
+}
+/*{
+    background-color: blueviolet;
+}*/
