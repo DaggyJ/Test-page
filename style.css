@@ -1,6 +1,9 @@
 html {
     display: block;
 }
+@media (min-width=414px)
+html
+
 
 header {
     text-align: center;
