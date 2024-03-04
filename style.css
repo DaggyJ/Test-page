@@ -6,13 +6,7 @@
 	margin: 0 auto;
 	padding: 0;
 }
-@media (min-width=414px)
-html
 
-
-html {
-	font-size: 60%;
-}
 
 @media (max-width: 1280px) {
 	html {
@@ -47,9 +41,11 @@ header {
     font-weight:bolder;
     color: whitesmoke;
     background-image: url(./coffee7.jpg);
+	background-size: auto;
     border-radius: 10px;
     border: 2px solid rgb(38, 0, 255);
     background-origin: border-box;
+	background-size: auto;
    
 }
 
@@ -92,19 +88,25 @@ header {
 		font-size: 2rem;
 	}
 	
-
+	.nav-list a:hover {
+		background: #2f3645;
+		border-bottom: 1px solid #afb833;
+		color: #a9a9a9;
+	}
+	
 
 #Img{
-    /*padding-left: 120px;*/
+    padding: 0 auto;
     border-radius: 20px;
     border: 2px solid red;
+	
 }
 
 body {
     font: 1em sans-serif;
     background: rgb(202, 126, 27);
-    /*padding-left: 180px;
-    padding-right: 50px;*/
+    padding-left: 180px;
+    padding-right: 50px;
     padding: 0% 180px;
     margin: auto;
 }
