@@ -1,7 +1,4 @@
-/*html {
-    display: block;
-	padding: ;
-}*/
+
 * {
 	margin: 0 auto;
 	padding: 0;
@@ -41,7 +38,7 @@ header {
     font-weight:bolder;
     color: whitesmoke;
     background-image: url(./coffee7.jpg);
-	background-size: auto;
+	background-image: url(./coffee7.jpg);
     border-radius: 10px;
     border: 2px solid rgb(38, 0, 255);
     background-origin: border-box;
