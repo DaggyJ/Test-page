@@ -6,6 +6,9 @@
 	margin: 0 auto;
 	padding: 0;
 }
+@media (min-width=414px)
+html
+
 
 html {
 	font-size: 60%;
