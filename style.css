@@ -1,6 +1,40 @@
-html {
+/*html {
     display: block;
+	padding: ;
+}*/
+* {
+	margin: 0 auto;
+	padding: 0;
 }
+
+html {
+	font-size: 60%;
+}
+
+@media (max-width: 1280px) {
+	html {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 960px) {
+	html {
+		font-size: 60%;
+	}
+}
+
+@media (max-width: 720px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 50%;
+	}
+}
+
 
 header {
     text-align: center;
@@ -15,11 +49,47 @@ header {
     background-origin: border-box;
    
 }
+
+.nav {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	color: white;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #41454d;
+	box-shadow: 0 2px 0 rgba(48, 48, 48, 0.4);
+	
+}
+
+
 #nav-link{
     text-decoration: none;
     color: white;
-	font-size: small:
 }
+	.nav-list {
+		display: flex;
+		margin-left: 2rem;
+	}
+	
+	@media (max-width: 480px) {
+		.nav {
+			justify-content: center;
+		}
+		.nav-list {
+			margin: 0 1rem;
+			color: red;
+		}
+	}
+	
+	.nav-list a {
+		margin-left: 2rem;
+		padding: 2rem;
+		font-size: 2rem;
+	}
+	
+
 
 #Img{
     /*padding-left: 120px;*/
@@ -32,7 +102,7 @@ body {
     background: rgb(202, 126, 27);
     /*padding-left: 180px;
     padding-right: 50px;*/
-    padding:0% 180px;
+    padding: 0% 180px;
     margin: auto;
 }
 .container{
@@ -44,9 +114,6 @@ body {
     border: 2px solid red;
 
 }
-
-
-
 
 
 .contact-section {
