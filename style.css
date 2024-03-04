@@ -100,14 +100,14 @@ header {
     border: 2px solid red;
 }
 
-body {
+/*body {
     font: 1em sans-serif;
     background: rgb(202, 126, 27);
     /*padding-left: 180px;
     padding-right: 50px;*/
     padding: 0% 180px;
     margin: auto;
-}
+}*/
 .container{
     border: 50px solid red;
     border-radius: 10px;
