@@ -45,11 +45,11 @@ header {
 	overflow: hidden;
     	background-image: url(./Media/10.jpg);
 	background-repeat: repeat-x;
-	background-attachment: fixed;
+	background-attachment: scroll;
    	/*border-radius: 10px;
     	border: 2px solid rgb(38, 0, 255);*/
     	background-origin: border-box;
-	background-size: 10vh 5vw;
+	background-size: 10vh 10vw;
    
 }
 
