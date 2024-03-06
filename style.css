@@ -36,20 +36,21 @@
 }*/
 
 header {
-    text-align: center;
-    font-size: 90%;
-    font-family: verdana; 
-    font-style: italic;
-    font-weight:bolder;
-    color: whitesmoke;
+    	text-align: center;
+    	font-size: 90%;
+    	font-family: verdana; 
+    	font-style: italic;
+    	font-weight:bolder;
+    	color: whitesmoke;
 	overflow: hidden;
-    background-image: url(./Media/10.jpg) url(./Media/15.jpg);
+    	background-image: url(./Media/10.jpg) ;
+	background-image: url(./Media/15.jpg);
 	background-repeat: no-repeat;
 	background-position: 12vh -12vw;
 	background-attachment: fixed;
-    border-radius: 10px;
-    border: 2px solid rgb(38, 0, 255);
-    background-origin: border-box;
+   	border-radius: 10px;
+    	border: 2px solid rgb(38, 0, 255);
+    	background-origin: border-box;
 	background-size: auto;
    
 }
