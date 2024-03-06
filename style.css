@@ -44,7 +44,7 @@ header {
     	color: whitesmoke;
 	overflow: hidden;
     	background-image: url(./Media/10.jpg) ;
-	background-image: url(./Media/15.jpg);
+	/*background-image: url(./Media/15.jpg);*/
 	background-repeat: no-repeat;
 	background-position: 12vh -3vw;
 	background-attachment: fixed;
