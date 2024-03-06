@@ -5,7 +5,7 @@
 }
 
 
-@media (max-width: 1280px) {
+/*@media (max-width: 1280px) {
 	html {
 		font-size: 90%;
 	}
@@ -13,22 +13,27 @@
 
 @media (max-width: 960px) {
 	html {
-		font-size: 60%;
+		font-size: 88%;
 	}
 }
 
 @media (max-width: 720px) {
 	html {
-		font-size: 55%;
+		font-size: 85%;
 	}
 }
 
 @media (max-width: 480px) {
 	html {
-		font-size: 50%;
+		font-size: 80%;
+	}
+}*/
+
+@media  (min-width:320px) {
+	html {
+		font-size: 85%;
 	}
 }
-
 
 header {
     text-align: center;
@@ -37,8 +42,11 @@ header {
     font-style: italic;
     font-weight:bolder;
     color: whitesmoke;
-    background-image: url(./coffee7.jpg);
-	background-image: url(./coffee7.jpg);
+	overflow: hidden;
+    background-image: url(./Media/10.jpg);
+	background-repeat: no-repeat;
+	background-position: 12vh -3vw;
+	background-attachment: fixed;
     border-radius: 10px;
     border: 2px solid rgb(38, 0, 255);
     background-origin: border-box;
@@ -82,7 +90,7 @@ header {
 	.nav-list a {
 		margin-left: 2rem;
 		padding: 2rem;
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	
 	.nav-list a:hover {
@@ -93,9 +101,14 @@ header {
 	
 
 #Img{
-    padding: 0 auto;
+    padding-left: -10px;
+	height: 60%;
+	width: 100%;
     border-radius: 20px;
     border: 2px solid red;
+	overflow: hidden;
+	
+	
 	
 }
 
@@ -103,10 +116,16 @@ body {
     font: 1em sans-serif;
     background: rgb(202, 126, 27);
     padding-left: 180px;
-    padding-right: 50px;
-    padding: 0% 180px;
+    padding-right: 180px;
+    /*padding: 0% 180px;*/
     margin: auto;
 }
+
+
+
+
+
+
 .container{
     border: 50px solid red;
     border-radius: 10px;
@@ -114,9 +133,14 @@ body {
 .Tins{
     border-radius: 10px;
     border: 2px solid red;
-
+overflow: hidden;
 }
 
+iframe {
+	overflow: hidden;
+	height: 20px;
+	width: 30px;
+}
 
 .contact-section {
 	font-family:'sofia';
@@ -180,10 +204,12 @@ body {
 footer {
 	display: flex;
 	justify-content: space-evenly;
+	text-decoration-color: purple;
 	font-family: 'Roboto', sans-serif;
 	padding: 1.5rem;
 	background: #696868;
 	border-top: 2px solid #5c0808;
+	overflow: hidden;
 }
 
 footer span {
