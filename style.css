@@ -43,7 +43,7 @@ header {
     font-weight:bolder;
     color: whitesmoke;
 	overflow: hidden;
-    background-image: url(./Media/10.jpg);
+    background-image: url(./Media/10.jpg) url(./Media/15.jpg);
 	background-repeat: no-repeat;
 	background-position: 12vh -12vw;
 	background-attachment: fixed;
