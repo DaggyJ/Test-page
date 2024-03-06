@@ -45,7 +45,7 @@ header {
 	overflow: hidden;
     background-image: url(./Media/10.jpg);
 	background-repeat: no-repeat;
-	background-position: 12vh -3vw;
+	background-position: 12vh -10vw;
 	background-attachment: fixed;
     border-radius: 10px;
     border: 2px solid rgb(38, 0, 255);
