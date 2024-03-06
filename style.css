@@ -44,8 +44,8 @@ header {
     	color: whitesmoke;
 	overflow: hidden;
     	background-image: url(./Media/10.jpg);
-	background-repeat: no-repeat;
-	background-position: 10hv -3vw;
+	background-repeat: repeat-x;
+	
 	background-attachment: fixed;
    	/*border-radius: 10px;
     	border: 2px solid rgb(38, 0, 255);*/
