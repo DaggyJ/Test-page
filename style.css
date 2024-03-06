@@ -46,10 +46,10 @@ header {
     	background-image: url(./Media/10.jpg) ;
 	background-image: url(./Media/15.jpg);
 	background-repeat: no-repeat;
-	/*background-position: 12vh -12vw;*/
+	background-position: 12vh -3vw;
 	background-attachment: fixed;
-   	border-radius: 10px;
-    	border: 2px solid rgb(38, 0, 255);
+   	/*border-radius: 10px;
+    	border: 2px solid rgb(38, 0, 255);*/
     	background-origin: border-box;
 	background-size: auto;
    
