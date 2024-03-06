@@ -37,7 +37,7 @@
 
 header {
     text-align: center;
-    font-size: 40px;
+    font-size: 90%;
     font-family: verdana; 
     font-style: italic;
     font-weight:bolder;
@@ -45,7 +45,7 @@ header {
 	overflow: hidden;
     background-image: url(./Media/10.jpg);
 	background-repeat: no-repeat;
-	background-position: 12vh -10vw;
+	background-position: 12vh -5vw;
 	background-attachment: fixed;
     border-radius: 10px;
     border: 2px solid rgb(38, 0, 255);
